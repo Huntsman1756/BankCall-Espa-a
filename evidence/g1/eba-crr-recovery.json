@@ -1,0 +1,2914 @@
+{
+  "counts": {
+    "by_origin": {
+      "EBA_OFFICIAL_TAXONOMY_PACKAGE": 201,
+      "WAYBACK_ARCHIVED_OFFICIAL_COPY": 34
+    },
+    "needed": 235,
+    "resolved": 235,
+    "unresolved": 0
+  },
+  "official_host_status": "eba.europa.eu/eu/fr/xbrl/crr/** returns HTTP 403 (verified); non-crr paths still serve",
+  "purpose": "Resolve every EBA URL referenced by the frozen BdE DTS with per-file provenance",
+  "resources": [
+    {
+      "bytes": 75404,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/3.4/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/3.4/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "adfd229893b3d867c0f0fcff07b57904decbf225c5fb223f2ebf00b330780a0e"
+    },
+    {
+      "bytes": 20284,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/3.5/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/3.5/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7a6b86a7e5807f2c7a0ed6dcd2494ac1d35dda947095798e3a163286eb50ecc9"
+    },
+    {
+      "bytes": 62894,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.0/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.0/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8e085f7385d7eec4bca1ebae1022f0e56554c0427aed9af12915d57deb5072d3"
+    },
+    {
+      "bytes": 6560,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.1/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.1/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "86f695a8c1210dc739a831c992357fc4634a33b5e630792d5ea97814048649aa"
+    },
+    {
+      "bytes": 48904,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.2/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.2/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c89be8f002c49744d5cd46ec37890e99e6b910672958fda7371c45ed632e52a2"
+    },
+    {
+      "bytes": 21098,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.3/dim.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/4.3/dim.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "25484d4434cc07e6d660fea12d66df4023c4920b6959ff28ef864bd9029e11d2"
+    },
+    {
+      "archive_digest": "U2BS3ZWSV4EOIFURX2Y6RIDF5IC4I47G",
+      "archive_http_status": 200,
+      "archive_timestamp": "20140510195015",
+      "archive_url": "https://web.archive.org/web/20140510195015id_/http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/dim.xsd",
+      "bytes": 23887,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/dim.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dim/dim.xsd",
+      "sha256": "89480cf938350d391f6209fc38db9b23deb51e35ac67b64dbcf06956038f73a3"
+    },
+    {
+      "archive_digest": "KHMHMCXF57NCWXSN6QUQSKDMQFTHEWH6",
+      "archive_http_status": 200,
+      "archive_timestamp": "20140606235527",
+      "archive_url": "https://web.archive.org/web/20140606235527id_/http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ap/hier.xsd",
+      "bytes": 5467,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ap/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ap/hier.xsd",
+      "sha256": "8accfe72d601da018df817f5709f816d330b12307a5735ffc8d078829785aba4"
+    },
+    {
+      "bytes": 40835,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ap/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ap/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b6444ebd7de76309d7d497780bf862a70b40a587cdfe05ca75d98e7d43ff7463"
+    },
+    {
+      "bytes": 1941,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/as/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/as/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "0d458dd7cda30a66e65191f7eec4f47545f05ec98d74ca72660175fe03092070"
+    },
+    {
+      "bytes": 2170,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/as/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/as/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "75f9c4b7bac80a96d9de7819174429c0854ea106e285a4ea441dfaf2d19b3837"
+    },
+    {
+      "archive_digest": "7YPVNYSSD34JPLPCPM77T27BEDB4NDHL",
+      "archive_http_status": 200,
+      "archive_timestamp": "20140621231158",
+      "archive_url": "https://web.archive.org/web/20140621231158id_/http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ba/mem.xsd",
+      "bytes": 5546,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ba/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ba/mem.xsd",
+      "sha256": "fddc93d977bfdf53f8888db5eb0439ec8bf77f43b8a8cd02a2c86dc96c93d196"
+    },
+    {
+      "bytes": 5708,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/bt/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/bt/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "4829808fdd3440c0237ec41283365d38a2e3c6ed338840f52735808441eeb952"
+    },
+    {
+      "bytes": 5643,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/bt/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/bt/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "13d8ab81290969477029a7ad58cdaa25efe3cc11a9069c15bf2f5ddae97e4d31"
+    },
+    {
+      "bytes": 2341,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ca/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ca/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "779fc1bb7fe5e50246990ab033dcdd6458e55a14bd2062643896e38a9c83798f"
+    },
+    {
+      "bytes": 2146,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cg/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cg/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "12f780717aebd63b6a57184aff4f5b8ab7f0217b7365e9712be001a26fefe210"
+    },
+    {
+      "bytes": 4789,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cg/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cg/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1fdf3d52bb094fb673816eed5330f035310e15fea0b16d005015629b228826f5"
+    },
+    {
+      "bytes": 2146,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ci/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ci/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "098cc7fd80895f472cddec0a9003ea099f2e419bc5f4a2141831205e1970bd46"
+    },
+    {
+      "bytes": 2767,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ci/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ci/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1f72527a8ea11bb2ec1167c79070233139ad71814d75f0f0b0feebd5a83e6562"
+    },
+    {
+      "bytes": 2259,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/3.5/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/3.5/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "96eb5360b00f4d3319f3fc488e63f65eb0f03af372bbef14637ef1a90bb0b56d"
+    },
+    {
+      "bytes": 2237,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "fcc07ea82ceafc265c907ae17286317135a18829c272b444ad910f82ab4e8e68"
+    },
+    {
+      "bytes": 3623,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/co/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a8c8b0fe4a6ac2a624057ab3b229586c15478a08eb724316bfd15e93bd0054d1"
+    },
+    {
+      "bytes": 2738,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cp/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cp/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "91fc7864f95632d39d670e329f6ccca45ed123c20a31606886caaab8c0f2c42b"
+    },
+    {
+      "bytes": 8663,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "644b9fc531a29efca899faf236cf2daa4f6900e93bb4f7e9a6f3128a5e4dcf84"
+    },
+    {
+      "bytes": 3626,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cq/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cq/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "12acf601bfb8e788a4e35cfd6a712a1ad29f8f934f1221827acca635305afeaf"
+    },
+    {
+      "bytes": 13869,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cq/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cq/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ce82b5f3fc087b109809c33a2f5b1c8a5cd1ecc5c5e917dbd72544555ebfe6b2"
+    },
+    {
+      "bytes": 2829,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cs/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cs/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "02f484d3085006a9b577263f8022b2fc93308a43b54be8af3c7df6e55f8eab57"
+    },
+    {
+      "bytes": 9413,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cs/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cs/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "4357e1f9b388719622b3b401d140502c04cb67794bce648948671785fefc855b"
+    },
+    {
+      "bytes": 4322,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/3.4/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/3.4/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9443467fb3b14732362bc6f7ce2ec16bdb17d62c92784c1c9ab5229ab4bad5af"
+    },
+    {
+      "bytes": 2633,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/3.5/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/3.5/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ea6d17f576565485ecfdb8bfd160faabe97bc56993fb0473d5b718f124d1fd38"
+    },
+    {
+      "bytes": 2076,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/4.1/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/4.1/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a868bf554b0e4959c9ef3dd351184e2d3a26032b6683ef1b7236bee876d0f9d8"
+    },
+    {
+      "bytes": 6914,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "01d57f4452d935f7464c3a71a49d3e83d37d79b734dbcb1c38a93bc51e638405"
+    },
+    {
+      "bytes": 38521,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ct/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "77fb6fae3d82c449bd1dbe1789987e701b1347ed531d282530a5aadf74248957"
+    },
+    {
+      "bytes": 4852,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cu/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cu/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "995823ff9940202f54a43cf3010954144f5837b3bb008a6b389ab8b2bbed09dd"
+    },
+    {
+      "archive_digest": "YVK5PI6JQBNVQOYH6V46YDVY4RLZZTU2",
+      "archive_http_status": 200,
+      "archive_timestamp": "20140717093422",
+      "archive_url": "https://web.archive.org/web/20140717093422id_/http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cu/mem.xsd",
+      "bytes": 41435,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cu/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/cu/mem.xsd",
+      "sha256": "8f1e53c164c3f4174dff40ebcbff0c99542949b437eddce881d5a4017a21e9c7"
+    },
+    {
+      "bytes": 3929,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ea/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ea/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "0b7d1ec48af93415bce6ce4ab19297524d4fd3a37a7b8f9116c27982173c4460"
+    },
+    {
+      "bytes": 5110,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ec/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ec/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "d7d136d1b35a8139c9061c627dbc34d2c63fee8990e28d48c61b66a459f4a8fe"
+    },
+    {
+      "bytes": 9387,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ec/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ec/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e118c11b65b0478b32597e8bf2e0dcc7b254f1f7934e69f03478e117fec9cb30"
+    },
+    {
+      "bytes": 2237,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/en/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/en/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "419cbffe2eec125de4fb5746a4762584b282d2e18e7dd6158036a1f5664d0f91"
+    },
+    {
+      "bytes": 39811,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/en/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/en/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b7e3fb2389abeb5e26a80dd724e7dc3d508853191864cb5839392a0e32b56c20"
+    },
+    {
+      "bytes": 2146,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/er/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/er/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a3c6ef59983d861b26451f54828f144555e4cfc2600b1b446ce6ab0cf5ce1d33"
+    },
+    {
+      "bytes": 4921,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/er/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/er/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7bbae0e1d28ec5a82a646347f1c0a3de381e350a7ee77fc84f8c2644077e3eb9"
+    },
+    {
+      "bytes": 2738,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/et/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/et/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "afc97c28e711627bbd33aebca3abd649547a5f2e22093c74d63e9753dcbd6df3"
+    },
+    {
+      "bytes": 4775,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/et/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/et/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "cf8f262b96b71f4671cf608a22b98a59d22c55ed8a76ba059c7b903b388e8e67"
+    },
+    {
+      "bytes": 23284,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/exp.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/exp.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9aada6bd1d58b1d8046a1495482e54572c84f6f7d3d0128853e6252502384049"
+    },
+    {
+      "bytes": 5518,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/3.4/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/3.4/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "88d5da908a6efc9ec7e4ea278e7629c4a05b7d9a6e4217bba769c946a1a0173e"
+    },
+    {
+      "bytes": 2669,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/3.5/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/3.5/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "cb490b4304b7468765b2cab5c376e4761a3cb6f94b87134059d445b9cf93ed87"
+    },
+    {
+      "bytes": 2078,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.0/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.0/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "08868cab168292b5c11e55670ef59786ba0669f835b977840fd73fc484d2c839"
+    },
+    {
+      "bytes": 2076,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.1/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.1/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e170a8377123dacdd5b090cf710200009a9075c315849be2d0ff4cf477a9600c"
+    },
+    {
+      "bytes": 5150,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1e8565eaed6b04639ae060150b27498ecc9c4e95b532b3c7155ead53db4885ba"
+    },
+    {
+      "bytes": 1720,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.3/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/4.3/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "3bdc2196f3b032073825df54e84fcd8cfb1a72a2d4e5e5cb111ffc55664193c6"
+    },
+    {
+      "bytes": 9950,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "861fbc31e8bb3a764a4909d23e3b26102824df9329448cd8cd724be5b8054c17"
+    },
+    {
+      "bytes": 65529,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ga/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "3b3d983ab8900a91f22cdd9b3bb8b2617472db633e6175f3beae25f8f1a19d3c"
+    },
+    {
+      "bytes": 2237,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ia/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ia/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c74e33de260eb45c2353494aeeac7b46b73063be3d888a7afd46a54420025c91"
+    },
+    {
+      "bytes": 18923,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ia/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ia/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "bbd177b0aed31447f5025a17c307a6083dd6bd2bdb2636f79c01f1a3cffb973c"
+    },
+    {
+      "bytes": 4838,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/im/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/im/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8651cb0010698b4897a134e5ed0e6817ca8c4b072a8c84ee90e4c31439ab09fe"
+    },
+    {
+      "bytes": 13453,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/im/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/im/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "0a5681831c8764db2e248c95519aa49588c5c2733b64abb837788eaa397db15f"
+    },
+    {
+      "bytes": 2738,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/lq/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/lq/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "947a24597ac4c3b0809e303b8e0837a2c19e55f61bb214db88fb0e794815c4a8"
+    },
+    {
+      "bytes": 32005,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/lq/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/lq/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c3e4d871f5fa0830970f83300abf1842b5d754c962808fc0ab06a17da168d867"
+    },
+    {
+      "bytes": 3479,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ma/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ma/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a1a1c191e60b95f9e66a65eb3cfa77eb2fbc857222e6874948fb147574225eee"
+    },
+    {
+      "bytes": 18807,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/3.4/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/3.4/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "107f393e880db1b7cb537b402daff2cef0baae776aaca53d06f060ea707a3d7a"
+    },
+    {
+      "bytes": 2643,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/3.5/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/3.5/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "926a5f4ddb0365bf8945d38fc9bc2304e7089947a679754ef39c36459c999cf4"
+    },
+    {
+      "bytes": 2074,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/4.0/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/4.0/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6c665a4aae61038f74cd8005a44b995b2ab532605d321b2bdb2d7f9b5004c406"
+    },
+    {
+      "bytes": 31112,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b19cd1c630e5cc4d30d71f7137a144a9cb755b820167a8dfae5cdf54bafdee07"
+    },
+    {
+      "bytes": 211627,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/mc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "71035bbab774b29a02ebe5601258f133f08ec2e4d8f11c0d34fbb07bc0a64e4e"
+    },
+    {
+      "bytes": 2657,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/3.4/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/3.4/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a824584367958dd688e6aabe021f1e9baf018766df3ca92581cd7d23335a2390"
+    },
+    {
+      "bytes": 2259,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/3.5/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/3.5/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e6eead0d4c617942287acfd599589e3ac399af570eac59db1f1f65afa74044e6"
+    },
+    {
+      "bytes": 2074,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7ec2b83a9a31ba032eae5b3cb3f234b42222a8ef7c6ed8f5e34135f87eac4583"
+    },
+    {
+      "bytes": 4228,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ac14589b84628014c4a36da8566c86fc2e9c9b3fc0e9483dd7978813c5483598"
+    },
+    {
+      "bytes": 130361,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/nc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "134060b66c5773fda1cf199eadb40704b43fe0d60b9ee351b36ea070cec82b52"
+    },
+    {
+      "bytes": 3034,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/of/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/of/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b2968f02cefc0ecbb6b2d3fb32d221d8a3109faca6e315761cda0d5dbf20f7c9"
+    },
+    {
+      "bytes": 6071,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/of/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/of/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b5f7ecd8d10359bed285b6db04f9a50a2c1044027c5640797782e44e5c31d827"
+    },
+    {
+      "bytes": 2738,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ol/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ol/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "87e16dae3498a4d1d4b389e03ec98ca80cac8df04f58ed9be569c86c9d1f62c3"
+    },
+    {
+      "bytes": 3641,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ol/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ol/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e498f7638e1cda8cb1ed3fe7d0531bba2db16b940a46d84423fcf4720188af71"
+    },
+    {
+      "bytes": 2442,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pc/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pc/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8101c33bf7a9c91beaa12f35bf59faa246e2f7dbc24b6ed58a31689b6a868015"
+    },
+    {
+      "bytes": 24479,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a7310b261437c46bdb11481fb86dcdcd2e0b9342cdf16d5182d0af4c995a934f"
+    },
+    {
+      "bytes": 2738,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pi/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pi/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7da0aea0c3cbbf4feb33e0f6562e4820e7319a3e971097ee55392655a4d2b784"
+    },
+    {
+      "bytes": 5209,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pi/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pi/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e50c33db0e6171bf6851890659cefb9b93adaf23f7ed218b9a22102d2968308b"
+    },
+    {
+      "bytes": 16170,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pl/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pl/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "0aab9d7c93894fb3e97a018f35e95356728d05c4d9925637b95e60f5f5636b1d"
+    },
+    {
+      "bytes": 35427,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pl/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pl/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "40728aff2b9822213a3edb0d993f2f4016795c6b28622650b09536186893344e"
+    },
+    {
+      "bytes": 2148,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pu/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pu/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2065687f28a4ead4914e91adcb8859381ed5a87b6e875f6e13a81aa333f8ab60"
+    },
+    {
+      "bytes": 8667,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pu/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/pu/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f02056cd2710f358d8b30b6e7803c59c0c7cad68298acb0766b060d3d6cbc3be"
+    },
+    {
+      "bytes": 6815,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qae/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qae/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "52508575455304caf522c9c251cb79dc50e25724ef7b99933906cfc4e914ed4f"
+    },
+    {
+      "bytes": 6671,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qaf/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qaf/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f4521087084b22c73663710c236afdc75aa45e41c839019c85705ae45cd77b3a"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qag/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qag/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "29884aff04447158c9b2eedad40351119d97d68e34499eeae720e3a603f6bcbb"
+    },
+    {
+      "bytes": 43967,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qai/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qai/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "bbb806f577be3cece998a7156ecca6966b191a0ed07f9ba7fa34173eb72e14e4"
+    },
+    {
+      "bytes": 5043,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qao/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qao/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "d3819100c5acbb884663aaec36fecdc8e9d81643477913569a98e4f72edc466b"
+    },
+    {
+      "bytes": 22211,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qap/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qap/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6d4f271979c5ad1f65b80c66b9acc632ceec13568d8fa11dcaf129ee0e5d29e0"
+    },
+    {
+      "bytes": 2087,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qas/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qas/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ec46809eea22403ba3641ed5e5f344669fca794983af62e144c805b4361d6ccb"
+    },
+    {
+      "bytes": 2971,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qas/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qas/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "5479ea099c38b18c547b01fcdefd907c25d12033230c52618c6f3e7995507e72"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qat/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qat/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "637ec84247ec535070f60b43c9965f19d93a404169f6831ea2b12a3513578d29"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qav/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qav/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9249a40fbe399fe01103a822ffef7c05f5067460b429e65d183a5632d242449f"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qax/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qax/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "af31a39fa2812155baaca573fa55aad855f115cc3b4793615b33647a9e7e53e5"
+    },
+    {
+      "bytes": 2379,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qaz/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qaz/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "947156ba6f6087832c8b2861cb931183b198df21ca69f58076c17586676d4c91"
+    },
+    {
+      "bytes": 2823,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qbt/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qbt/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "78e6043cc721befe88f8692eea1bf865753a4c8be0deb6dc527af2ac287933ae"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qca/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qca/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9abe0165b09b0105a1d663284491ca896dd1356764d5b0ade650c2746b617dd0"
+    },
+    {
+      "bytes": 10667,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcg/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcg/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ab3f803f9462d3a387f7266ced80d04ea8f9a10f8c970662c7f36bfb90f8a07d"
+    },
+    {
+      "bytes": 19843,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcm/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcm/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "da739b14c48abf213def8fe9fb9bb0551564ebe31ae3d4c578a988f6ce63f0c9"
+    },
+    {
+      "bytes": 11259,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcn/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcn/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7f95df0888c7d6334a8f773fb19c3a521507d70a8272b2c94283748144f581b5"
+    },
+    {
+      "bytes": 2475,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qco/4.0/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qco/4.0/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c1897cd3904d1cba0bcb4bf156d8dcd6187c51255c4f5327d36e9e97726e8db1"
+    },
+    {
+      "bytes": 4155,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qco/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qco/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6c512ff9f9354f890d98cb21831affc8a9a2f7d8a7b64fb6647f04aa5d83fe75"
+    },
+    {
+      "bytes": 2087,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcp/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcp/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2c221417ef8dc1138c2d60d0a7e8b56cdcacd7079ad6b69632df8cd50d72816c"
+    },
+    {
+      "bytes": 6227,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "88e1cc340fb562afc1ac2a3d2fc810486448c7dfef0235685db9d1933cb0e2fe"
+    },
+    {
+      "bytes": 12591,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcq/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcq/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b4a51bd0d45efc893275fc3878fe3339061ceacd51231ca54cf11dda5bb8f38a"
+    },
+    {
+      "bytes": 7115,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcs/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcs/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f38107fdf80c53b84c65aee710360c3649976f935e3cc21bc7458fbcd6902099"
+    },
+    {
+      "bytes": 5189,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcy/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qcy/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ea5dcbd4f583e51211b98a0d08a6e2406c7aa28b15423ce609ea086483d282df"
+    },
+    {
+      "bytes": 14741,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qec/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qec/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "eea50464eabdd8f67ae06dcc254cfd277837cd4ae0e967eaabd5601e2e249ad6"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qee/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qee/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ee94db78f4f1a400cac7b1976bbafd3e3cf3395e1358b134e397e6636bcb022a"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qer/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qer/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "96cd055400909a42be634c5e359ac1d4d180b22e236bf8ffd71c8383455ef505"
+    },
+    {
+      "bytes": 3711,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qes/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qes/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8eafe3b22897607a196efc40f0fe86b341373405498addd621e681578671f3a2"
+    },
+    {
+      "bytes": 2281,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qet/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qet/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b8b64714130f4f1fc9dc80e887af10ed8265b8f595c0ae246fe850fea00a5120"
+    },
+    {
+      "bytes": 12591,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qet/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qet/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c3c16073709e53f080e0b5e8a94cda0cde0d8dbe4fb68b28a792d4e7d690c97c"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfa/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfa/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "e094ab203a63735231f1d941074803304656411f946d1e4d7534bc7d94272a10"
+    },
+    {
+      "bytes": 6227,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qff/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qff/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "dfa3b48462efc49cd754abd24b7cb730bf17473c05da54feb76efb24014b0955"
+    },
+    {
+      "bytes": 50923,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfi/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfi/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "07910afd501859af5ea7b93a6f544c95a5ed8132c94cf9486a9ab756adad3722"
+    },
+    {
+      "bytes": 3563,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfn/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfn/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "266c7677986e617f0a4ca45ba7016b3e00a679e48ea5e84db3c78ca6ce11e24a"
+    },
+    {
+      "bytes": 2823,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qfp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1fc812ba472ba5cde85fad3a0e2934dcdbe0780c6e0fff4f1d9f82bf22c9a7c4"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qft/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qft/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b78ae6a150ec34ce5399be01977faa581f7491aa35ae091b6a6bbbca328ff509"
+    },
+    {
+      "bytes": 19399,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qia/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qia/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "54714f1dc9d53a1739dd7795278ca6d359f3d0683b54bb6eae4802e8e3e63ef7"
+    },
+    {
+      "bytes": 9631,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qim/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qim/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "836b720c931c529cf94e207031c123684160dad676b5a89c7fb779d392957b77"
+    },
+    {
+      "bytes": 15551,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qlr/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qlr/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "879fe5042234ff5d29a0d99341a40103685af10f66fc4b24c07414b3546b1e4b"
+    },
+    {
+      "bytes": 7411,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qma/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qma/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "cd00ba72674fe02c44a11b4028d168eb68d193edc8d052f8d86c63d36e605206"
+    },
+    {
+      "bytes": 6967,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qnf/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qnf/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2686a2be1e101d69a2dfe01af961898334938086e038a553bd44f67d6f69ec1d"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qni/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qni/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6d0dd7af941e1e3b0b43273e6837e0560ee1c7274142689deb6236d814c14c29"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qno/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qno/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "64d40a21e96a07310e3d41d33cc941ca5feba335f7ffdd6f9029dbfd64f6d03e"
+    },
+    {
+      "bytes": 7707,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qoi/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qoi/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "025967c8b6f3793179e5dc557ccf67c17321489ccba15782811f1eee21d6f478"
+    },
+    {
+      "bytes": 33755,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qor/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qor/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "08fe5d22ae1d5b2cb643b903ef115e3c2c2b5a17845cfd28b361bdab1ac56083"
+    },
+    {
+      "bytes": 20435,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "556fbffeeb4ae15a770d76cea523c632e51f7e27f3d99973a80fe9f407108382"
+    },
+    {
+      "bytes": 5783,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpi/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpi/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6b746769f250961462e0f80cd137d6faa039082714f6e431777fd32f2750546b"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpl/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpl/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "520707e6385b3f7933c09e82a135a0d20e7b69346340482ee6ad9c58333686fb"
+    },
+    {
+      "bytes": 13479,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpl/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpl/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "85defb1ef61d12a15ede0001e98983d70e408c26026add71a5c37abe390d46b6"
+    },
+    {
+      "bytes": 2527,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpo/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpo/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "61abe4980180012ecbf30abc642679f5005c54dfc2fd4f8d35a1bdb392426f1c"
+    },
+    {
+      "bytes": 2685,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpr/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpr/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7b3b931ee042091cdd0306fe03eae49a9a64e37db977cf1e6fc0bb4759e15a84"
+    },
+    {
+      "bytes": 19103,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpr/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpr/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "33ae74f4f896ce591170fb8de2f39e873f76fde34e73da83f1226fb3d10546cd"
+    },
+    {
+      "bytes": 9779,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpy/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpy/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "603fc1da138956557e3900cc89ab41e3ca2a07181d8841549542ed09b8da2bfe"
+    },
+    {
+      "bytes": 2675,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpz/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qpz/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a10d7c9f500fa3908f12b9576cf0f11e4bd8a8b250ddaea95e680dff5af3624b"
+    },
+    {
+      "bytes": 2675,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qqi/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qqi/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1c79d62e1ca1b486cd869f93c07324cd8f755a1354d301a93862187846648fac"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrb/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrb/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "752f23f343afe53a0fd8b85fcdbe8cb15a5c3958a8d8da1d370509f841a0fc50"
+    },
+    {
+      "bytes": 7115,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6036333edf9416c9393a054bc1d935c4e6be5083367922a04ff974e230984ae6"
+    },
+    {
+      "bytes": 9483,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qre/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qre/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "df08e5a1fb0535c6f35556ce3271fdc95e7f34136728032213e49205e81640a2"
+    },
+    {
+      "bytes": 21619,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrf/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrf/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "99dbac9a81f4b31fcee5bdb5a8aaabe59604e89dcf7b5c79aa8e1bca4ff35fea"
+    },
+    {
+      "bytes": 2823,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrm/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrm/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1c20f7a14c913112980edfbdac6b16a7967929570ccb3ff0c23913f1597ba9f0"
+    },
+    {
+      "bytes": 2823,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qro/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qro/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c5d0223b678400468e6d44b120e771899f910490af269ec61cdeaf13c729fd28"
+    },
+    {
+      "bytes": 4885,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrp/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrp/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "92f2f46a3092a51a7029d2c9190fd155324f3f73b0b40e4ce3a0ff0c73ad1270"
+    },
+    {
+      "bytes": 18067,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qrp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2bc91ae792e0212706f00a41df920a9169e76328f4b03ac8a38dd04c98bfdc4a"
+    },
+    {
+      "bytes": 2083,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qry/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qry/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c026d7767b445450736ab64e322c6ca8f27ff9b259bb0cf1322f822ade6d9474"
+    },
+    {
+      "bytes": 2451,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsc/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsc/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a0160dc567180797abe54028d7cbbd050de2d53831f566567b0b9d19a190a453"
+    },
+    {
+      "bytes": 4689,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7a0378a844be3c47c610983badc30b81e9faa0cb34aa6c82ec8c5441bce28dc6"
+    },
+    {
+      "bytes": 2823,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qse/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qse/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9469be585fc29bc5809456150bd2e41c7b16921f216dedaeac5976eda756294e"
+    },
+    {
+      "bytes": 11407,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsm/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsm/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "42a69fbde0f1ec1929050074e1deff28cf2ac15d2eb9e6cc0355e662aa51d0c4"
+    },
+    {
+      "bytes": 7753,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsr/4.0/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsr/4.0/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8fd2c4233090c42508430148738a2e7463b69ae7d52679801af5d5703235521f"
+    },
+    {
+      "bytes": 13775,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsr/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsr/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6b4ab28cf985fd0efbc0d1c11a933dd120b26b55d114168951cf4b3144878598"
+    },
+    {
+      "bytes": 9779,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qst/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qst/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "8784a56a2ffa7416c3a334f31470fba84018c923e08af1c9fd5170fd4aa6d130"
+    },
+    {
+      "bytes": 2231,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsx/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qsx/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9950f49786c10b44a40abaa3ec6250b0b2247c464213c207653b901eb1449aed"
+    },
+    {
+      "bytes": 4045,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qta/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qta/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6b2115fddbffc2892a0f34e0dbe373e1ddbf91ba9a8a17f8bece09f6c3122af2"
+    },
+    {
+      "bytes": 45003,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qta/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qta/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "a00bebe7881d0eb69152e2f18a92564d445a4bb0c5704a6e0d729e68a1564683"
+    },
+    {
+      "bytes": 17327,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qte/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qte/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7a7a761e7a143a4ec6ae019ab32be4861b6d79e89de90e2c1d9f8e046c41c9aa"
+    },
+    {
+      "bytes": 17917,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qti/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qti/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2d42ad390ed917baa1f5f5dabdb559f856dd97e99bdd72c55402ddb3047962a6"
+    },
+    {
+      "bytes": 2675,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtm/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtm/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "86782e2f8a48fecf5984b0264cd8924c280aed344ee61f434e28f5ac3db15584"
+    },
+    {
+      "bytes": 4303,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ac3d8443716b7a7372dd6400ab27fa2d67f93337a2485baca6e9243e045162f5"
+    },
+    {
+      "bytes": 4373,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtr/4.2/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtr/4.2/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "37ca7f31febce058b78aec16dc776b34b08303763aa56a1e82d924e9e5117cca"
+    },
+    {
+      "bytes": 13331,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtr/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtr/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "11d9cceeb1ac285e8e512851fb90a15e670d6399b320c5b6f3ba2f0c7c5c390e"
+    },
+    {
+      "bytes": 8743,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtz/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/qtz/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "5b2f35e0237dd748f2005741ea1a62973167e8dab606a0755d015a923a9e5745"
+    },
+    {
+      "bytes": 19667,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rf/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rf/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "82308632fc4375af6b5ffe7f6108369054b277de042529bfd2f1482e02124533"
+    },
+    {
+      "bytes": 5720,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rp/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rp/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "02da302ba49a116fe974b2b4c1645a93f4f05aed23de578e40788d6844e35bb7"
+    },
+    {
+      "bytes": 36461,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "d5bfc110e913d7f06062e2c362743f2e3ebf272970ad5dfd119ccb5edc4ad454"
+    },
+    {
+      "bytes": 1941,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rs/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rs/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "edad3074e1afabe467b1b3eaec0a490c10fe745168a85ec51c3cf53ef6159dc5"
+    },
+    {
+      "bytes": 2909,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rs/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rs/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "76edc07462d00a80899b9ac3eec162b448d6b0153fb0e0cb01f016c8c759b399"
+    },
+    {
+      "bytes": 3630,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rt/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rt/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "4b320e63ce79a7ae938939f3c83e103a51944683576457b18906c926b7596d84"
+    },
+    {
+      "bytes": 4921,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rt/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/rt/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9bbcd5afb5ecc35e37acc778c694025b0f121a1c98eba25e6c55a6db449610ce"
+    },
+    {
+      "bytes": 2833,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/sc/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/sc/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "6bb2fbf2209c5a0fd77f01e30c9019cac335276662d305ec7b91bb991cbf822f"
+    },
+    {
+      "bytes": 3767,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/sc/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/sc/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "19cc975e66cdc72269660815cd7c357c943526278ec68cb3f46c9ca1e9376d8a"
+    },
+    {
+      "bytes": 2909,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/st/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/st/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "3d9dc1f1f72cfdb9b2d96b661076b8f587b291dc2a05c748e71d3ae28a67dd9f"
+    },
+    {
+      "bytes": 4522,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ta/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ta/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7fc0729edbdc4796786032f4431082ec7575d556ac8355736451786c9d1876b5"
+    },
+    {
+      "bytes": 45167,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ta/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ta/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c29372fde84768aacd0933a7fb35e21ed41dec07e190e1512a7bc515fc67119e"
+    },
+    {
+      "bytes": 5110,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ti/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ti/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f96b66e448eb6c5108a8d8b6755b087c04b53c69c13dedbe12dce285d660359c"
+    },
+    {
+      "bytes": 24643,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ti/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ti/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "9f4b6766436692101b23ba915cf5ca11454407b3fbd10766182db17ebcc0f2d2"
+    },
+    {
+      "bytes": 2442,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tp/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tp/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "4335b2e84db971a19134e20f84a31068f623c2196de98608f12a135a930b1a76"
+    },
+    {
+      "bytes": 2341,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tp/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tp/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "54e9b80d54a8216f110ec144f52174d51d142fdaea43ad5ade75a42296557368"
+    },
+    {
+      "bytes": 6308,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tr/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tr/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ea2f60c5a7dd597179f1d5c2da2190dfdfb254dcbc711a1be26220dc545113d1"
+    },
+    {
+      "bytes": 15285,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tr/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/tr/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "87e2f5513bcc89ccf8c77d4ebf5ed18244f3e9eac708c9348ecb488f1e3a91c1"
+    },
+    {
+      "bytes": 2711,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/typ.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/typ.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "cba4cd93a10e726e0395841163b7b8bc01982190e4d76ae4fc51cd9f99a5d71e"
+    },
+    {
+      "bytes": 3334,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ue/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ue/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "2ead7263cadd8b7bd8dd8fb2ff75b8e7b1aea4e97c3b442b5609afa9bd111036"
+    },
+    {
+      "bytes": 6361,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ue/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/ue/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "c6619546156e6dc17400c5ee2835620624edb7cd3f2c351505bd4b99bb266682"
+    },
+    {
+      "bytes": 47675,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/zz/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/zz/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "de4d623c40c37a8968c7db4f803c17c8a9fb67c2809d4b591131a7e47738a92c"
+    },
+    {
+      "bytes": 144479,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/zz/mem.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/dom/zz/mem.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "3fdcefe6763e7100321873f0f654e5d96b9701291532bf7d732527a9aedba514"
+    },
+    {
+      "bytes": 60772,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/3.4/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/3.4/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "3606eb854884e208296f7df380c8f3a213c0df9774bd8f00bebed5f335782b51"
+    },
+    {
+      "bytes": 39048,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/3.5/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/3.5/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "513c351fd2dd2903825c480810f12cf79c2b493a0d5d389da9af64cb84a77da4"
+    },
+    {
+      "bytes": 15395,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.0/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.0/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "99451672be20d8486e7b74e8f9a61e5b8187d0312fb0230c840f1a7cfd64f785"
+    },
+    {
+      "bytes": 6808,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.1/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.1/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "b40ca45b15df869db9ca33f177f3ab82136ec915925336fef9207518061a7283"
+    },
+    {
+      "bytes": 62654,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.2/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/4.2/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f927383b40050f09298dc7f4fc668b9994fd7b70c7f2f13167f67070b54cbbf0"
+    },
+    {
+      "bytes": 8036,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/hier.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/hier.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "fa580122c2c46877f1b046f94577b05ede3245169a9300a768ba32e2aa34b0cf"
+    },
+    {
+      "bytes": 346677,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/met.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/dict/met/met.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "88a103cc589c432beaaf226099196a80b5580d49be3a6e2306270e26ea330d95"
+    },
+    {
+      "bytes": 883,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/func/func.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/func/func.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "696215247913e01c21622e3ce98f9a4ffd2539ce2b3724a3e50d30605ff4c38f"
+    },
+    {
+      "bytes": 158115,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.01/f_17.01-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.01/f_17.01-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "7258117c87411fd2b4aa8aabae1345d869227a5d04656c585b215a41bb9c0a06"
+    },
+    {
+      "bytes": 6764,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.02/f_17.02-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.02/f_17.02-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f74f012a3fd6bdf102f991ae2a5c3f01275689936495d30200fafe7123352f59"
+    },
+    {
+      "bytes": 179734,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.03/f_17.03-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/4.2/tab/f_17.03/f_17.03-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "52feb0879af1f62d333beefdc90fcac01b0db1349ea251c2f23d8ae4623106fc"
+    },
+    {
+      "bytes": 40476,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.01/f_17.01-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.01/f_17.01-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "413d4c1632d222f66f554d25cac16856c212c362b7f4b2b96363c0cdc4ed4605"
+    },
+    {
+      "bytes": 6400,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.02/f_17.02-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.02/f_17.02-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "1fe9546991a77645905b1a72c31a5e7e3fc86d0f184175bb5fd491e8044ee31c"
+    },
+    {
+      "bytes": 37620,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.03/f_17.03-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tab/f_17.03/f_17.03-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "da797fc407674bc602bd9c4d977fb3e916c099694db9784910a058517391d242"
+    },
+    {
+      "bytes": 1883,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tax.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/cir-680-2014/2017-04-04/tax.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "57e06580f765d97814609fd809ce3d16f3dd6b3cfd559b7363fa51355c6ad989"
+    },
+    {
+      "bytes": 40477,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.01/f_17.01-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.01/f_17.01-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "d7ad8d257cb43fe784b07877aa35cc0aa9048c56f3aae0b10f938a7496488934"
+    },
+    {
+      "bytes": 6401,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.02/f_17.02-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.02/f_17.02-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "f6157ca20308b559f4e027e8494e9c77d534f91fb475d24a71598a2df1579c2d"
+    },
+    {
+      "bytes": 37621,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.03/f_17.03-rend.xml",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tab/f_17.03/f_17.03-rend.xml",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "fc4d9fd5e556076453de2c72e279de93273db3b38e61a9b993add1b46cc310c2"
+    },
+    {
+      "bytes": 1878,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tax.xsd",
+      "origin": "EBA_OFFICIAL_TAXONOMY_PACKAGE",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/finrep/its-005-2020/2020-11-15/tax.xsd",
+      "package": {
+        "note": "first-party EBA publication; files ship under the official www.eba.europa.eu URL space",
+        "package": "EBA Reporting Framework 4.3 - Full taxonomy",
+        "package_page": "https://eba.europa.eu/risk-and-data-analysis/reporting/reporting-frameworks/reporting-framework-43",
+        "package_url": "https://ebprstaewspublic01.blob.core.windows.net/public/tools-prod/documents/Big_Files/files/Reporting%20framework%204.3/Full%20taxonomy.zip"
+      },
+      "sha256": "ce08cc37caabe9fdf276cb93595921a3c70a6d8c71375171345e77885a4e8462"
+    },
+    {
+      "bytes": 11055,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dim/dim.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dim/dim.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "1cb412bd245986213d00d3d2cf0439cf12606af3253d694f3944038faf6e4ce7"
+    },
+    {
+      "bytes": 3421,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/bas/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/bas/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "e04ee3723b63611355e13cf095f15af6f8d157addc3a3285b2d2e6272f180181"
+    },
+    {
+      "bytes": 2714,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/bt/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/bt/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "09986cbb2d5b3566b4dbc2322acdc6d51f4217d6b80374139b645b2a2ea3d530"
+    },
+    {
+      "bytes": 2017,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/cof/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/cof/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "a80a9867f8d6d11c4dfa03307e4625486c16398b90b28e2034457cec8bd22ff5"
+    },
+    {
+      "bytes": 2002,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/ct/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/ct/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "eb6d8c0d84201d4001d4addf0b91ce76844cfba25c6ff0d88722e329d0e0a579"
+    },
+    {
+      "bytes": 5715,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/ct/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/ct/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "def931168b4a5755623ed646952f873534d83a05c19cc2d7d4ed32279fb89378"
+    },
+    {
+      "bytes": 2017,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/eu_ga/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/eu_ga/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "0ca5982f1763dd0467f7bb2ad43f0398d183bb87157a8375f279bf8145df5398"
+    },
+    {
+      "bytes": 3002,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/eu_ga/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/eu_ga/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "08c61d1110bbcc8c4f25249fcb197799d13e245439adeb87239b5671fd1d6801"
+    },
+    {
+      "bytes": 5296,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/exp.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/exp.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "5cdfccc035777dcd7bbf362a33301fdf8d1f29064ca480f08925ebe708907efb"
+    },
+    {
+      "bytes": 4474,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/im/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/im/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "11464cfb53b0e691829713fc8768d5c246d088f0b12828312125cc95db76b78c"
+    },
+    {
+      "bytes": 41998,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/mc/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/mc/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "27c94f98d8f44f9b64c898f4aaf9cfcfecdbeba4c620956852e824dcd9c4b0b7"
+    },
+    {
+      "bytes": 2017,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/pct/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/pct/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "c5217df23d803d275fb81d4921569fa3105599c6dba09fabb3fa9a6b13e9cba7"
+    },
+    {
+      "bytes": 1714,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/pu/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/pu/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "d4d7b51d3fd929f2d5137c15c287043ec28440fc93f4c1a3e1972ddb7cb49500"
+    },
+    {
+      "bytes": 2539,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/pu/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/pu/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "eb9ae62e5afa5af0676c48e0126fbba156ed1a221f3ac20875ae9bba3c26a7c6"
+    },
+    {
+      "bytes": 3959,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/rp/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/rp/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "3766389434ff19ff81d3b0cc726607d3f8a832d1237aeb79c328fabff1e7b6a9"
+    },
+    {
+      "bytes": 2189,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/sz/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/sz/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "33c9f14d37da98e6265ac1634abff6c5c69bfdd963ce37be7ef2fd8729da42a5"
+    },
+    {
+      "bytes": 7306,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/ta/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/ta/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "98f436c27de99992e62652e463e3553e9219f417c916e156cb32205ff131486f"
+    },
+    {
+      "bytes": 4480,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/dom/ti/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/dom/ti/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "eb86cab07227262c8239606116f35e7fe1d535645b34ef3ccd0b0878c43d1566"
+    },
+    {
+      "bytes": 4560,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/met/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/met/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "30f860f756d0f8108869a5d4d04155244a7ffa00946a8823e0be0af359d00360"
+    },
+    {
+      "bytes": 23541,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/dict/met/met.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/dict/met/met.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "60d636a30ab9f61f397aa31d1d7a55238b066483518dc8dcd9bfcc3575e5ebc6"
+    },
+    {
+      "bytes": 3089,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/ext/model.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/ext/model.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "750c5664b9be6d75193d6158cb5c35904ddaf5c3fdbc862ebda692037de335f5"
+    },
+    {
+      "bytes": 2670,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dim/dim.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dim/dim.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "aa5b288b6add1846e8514d6be256e97c16eec2b3455d455d944cf8dc0d8b1b8f"
+    },
+    {
+      "bytes": 4121,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/bl/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/bl/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "0143febcbfb27e3a60bd89fbe135a30d7c09d08a9d9d36cad0f0204beaaea52e"
+    },
+    {
+      "bytes": 2502,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/exp.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/exp.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "f45befff58f03d0cf8e523caf7945795ea4af688af9701ced008e18caa1bd788"
+    },
+    {
+      "bytes": 8347,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/ga/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/ga/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "80fb39a7ac9240cee9bcb1a532d5f040fe5cee38d36504d72f03ab97a5a3da24"
+    },
+    {
+      "bytes": 2495,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/pb/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/pb/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "c045f1c6cc640fb3d5dcaa453946f047cc7450cd67b960208744b06f884d02c4"
+    },
+    {
+      "bytes": 14763,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/pb/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/pb/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "d4d1429567871fe6017a109978c3bfa127ef0d3d22b9545e0bc44c388244eb98"
+    },
+    {
+      "bytes": 2449,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/sg/mem.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/dom/sg/mem.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "f1cf2e3e00d2083ff81e09c6cff076f347101d57cc411333123d04ffdcc4f030"
+    },
+    {
+      "bytes": 1884,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/met/hier.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/met/hier.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "5aa4bdf4f40294468cd8431c7f86136ee73c88905f449e516f712d63a7cdef18"
+    },
+    {
+      "bytes": 9335,
+      "mirror_path": "www.eba.europa.eu/eu/fr/xbrl/rem/dict/met/met.xsd",
+      "origin": "WAYBACK_ARCHIVED_OFFICIAL_COPY",
+      "original_url": "http://www.eba.europa.eu/eu/fr/xbrl/rem/dict/met/met.xsd",
+      "provenance_note": "bytes present in mirror from an earlier Wayback run; capture metadata unavailable",
+      "sha256": "17e4670f5168cb52e46aee9b1bdebc3311948864b3789a19374ee2f7959710d1"
+    }
+  ],
+  "schema": "bankcall-g1c-eba-crr-recovery/v1",
+  "unresolved": []
+}

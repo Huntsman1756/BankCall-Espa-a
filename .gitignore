@@ -20,3 +20,22 @@ g0_acquisition/*_out*.txt
 # --- Python ---
 __pycache__/
 *.pyc
+
+# --- G1-C frozen DTS resources (large, hash-pinned in evidence/g1/dts-freeze-manifest.json) ---
+g0_acquisition/es-bde.zip
+g0_acquisition/es-bde-aux.zip
+g0_acquisition/eu-eurofiling.zip
+g0_acquisition/dts_mirror/*
+!g0_acquisition/dts_mirror/META-INF/
+!g0_acquisition/dts_mirror/META-INF/**
+g0_acquisition/dts-probe/
+g0_acquisition/xbrl_instances/
+
+# --- G1-C EBA source packages + extraction staging (hash-pinned in manifest) ---
+g0_acquisition/eba-*.zip
+g0_acquisition/eba-*.7z
+g0_acquisition/eba-taxonomy-packages-*.bin
+g0_acquisition/eba_pack_4.3_staging/
+
+# --- G1-C generated artifacts (large; sha256 pinned in g1-c-evidence.json) ---
+evidence/g1/dts-fingerprints.json

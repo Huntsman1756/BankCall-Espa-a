@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tp:taxonomyPackage
+    xmlns:tp="http://xbrl.org/2016/taxonomy-package"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+  <tp:identifier>urn:bankcall-es:dts-mirror:g1-c</tp:identifier>
+  <tp:name>BankCall España G1-C frozen DTS mirror (BdE + eurofiling + EBA)</tp:name>
+  <tp:version>1.0</tp:version>
+  <tp:publisher>Banco de España (frozen copy)</tp:publisher>
+  <tp:publisherURL>https://www.bde.es</tp:publisherURL>
+</tp:taxonomyPackage>

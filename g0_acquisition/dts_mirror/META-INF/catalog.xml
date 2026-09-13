@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <rewriteURI uriStartString="http://www.bde.es/" rewritePrefix="../www.bde.es/"/>
+  <rewriteURI uriStartString="https://www.bde.es/" rewritePrefix="../www.bde.es/"/>
+  <rewriteURI uriStartString="http://www.eba.europa.eu/" rewritePrefix="../www.eba.europa.eu/"/>
+  <rewriteURI uriStartString="https://www.eba.europa.eu/" rewritePrefix="../www.eba.europa.eu/"/>
+  <rewriteURI uriStartString="http://www.eurofiling.info/" rewritePrefix="../www.eurofiling.info/"/>
+  <rewriteURI uriStartString="https://www.eurofiling.info/" rewritePrefix="../www.eurofiling.info/"/>
+  <!-- narrow: only the PWD table-linkbase schema is mirrored; standard
+       xbrl.org spec schemas still resolve via Arelle's bundled cache -->
+  <rewriteURI uriStartString="http://www.xbrl.org/PWD/" rewritePrefix="../www.xbrl.org/PWD/"/>
+  <rewriteURI uriStartString="https://www.xbrl.org/PWD/" rewritePrefix="../www.xbrl.org/PWD/"/>
+</catalog>
