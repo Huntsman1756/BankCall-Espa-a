@@ -1,0 +1,97 @@
+{
+  "determinism": {
+    "catalog_run1_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
+    "catalog_run2_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
+    "classification": "IDENTICAL"
+  },
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.15",
+    "requests": "2.33.0",
+    "script_sha256": "81aa78f1974ab3120827d7403bb7867dbedfb933ae15b942534f187dd460fef1",
+    "tls_verification": true
+  },
+  "evaluation_period_ids": [
+    "201803",
+    "201809",
+    "201812",
+    "202012",
+    "202103",
+    "202109",
+    "202212",
+    "202303",
+    "202506",
+    "202606"
+  ],
+  "experiment": "BANKCALL_ES_G1_A_DISCOVERY",
+  "gates": {
+    "CROSS_TAXONOMY_CONCEPT_MAPPING": "NOT_TESTED",
+    "DISCOVERY_DETERMINISTIC": "PASS",
+    "ENTITY_KEY_DECOMPOSED": "NOT_TESTED",
+    "ENTITY_LIFECYCLE_HANDLED": "NOT_TESTED",
+    "ENTITY_MAPPING_PROVEN": "NOT_TESTED",
+    "NO_SILENT_SEMANTIC_DRIFT": "NOT_TESTED",
+    "PROVENANCE_COMPLETE": "NOT_TESTED",
+    "TAXONOMY_AUTO_RESOLVABLE": "NOT_TESTED",
+    "TEN_PERIOD_CORPUS_PASS": "NOT_TESTED"
+  },
+  "inventory": {
+    "artifact_candidates": 1203,
+    "available_artifacts": 1203,
+    "available_by_extension": {
+      ".pdf": 401,
+      ".xbrl": 401,
+      ".xls": 401
+    },
+    "entity_records": 30992,
+    "periods": 34,
+    "states": 401
+  },
+  "runs": [
+    {
+      "catalog_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
+      "counts": {
+        "artifact_candidates": 1203,
+        "available_artifacts": 1203,
+        "available_by_extension": {
+          ".pdf": 401,
+          ".xbrl": 401,
+          ".xls": 401
+        },
+        "entity_records": 30992,
+        "periods": 34,
+        "states": 401
+      },
+      "finished_utc": "2026-09-13T12:02:48.610343+00:00",
+      "run_id": "run1",
+      "started_utc": "2026-09-13T12:02:19.119568+00:00",
+      "status": "PASS",
+      "tls_verification": true,
+      "user_agent": "BankCall-G1-Discovery/1.0"
+    },
+    {
+      "catalog_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
+      "counts": {
+        "artifact_candidates": 1203,
+        "available_artifacts": 1203,
+        "available_by_extension": {
+          ".pdf": 401,
+          ".xbrl": 401,
+          ".xls": 401
+        },
+        "entity_records": 30992,
+        "periods": 34,
+        "states": 401
+      },
+      "finished_utc": "2026-09-13T12:03:17.698784+00:00",
+      "run_id": "run2",
+      "started_utc": "2026-09-13T12:02:49.065185+00:00",
+      "status": "PASS",
+      "tls_verification": true,
+      "user_agent": "BankCall-G1-Discovery/1.0"
+    }
+  ],
+  "scope": "G1-A only; G1-B/G1-C/G1-D not executed",
+  "source_root": "https://app.bde.es/sifdifu/es/#/",
+  "timestamp_utc": "2026-09-13T12:03:18.327716+00:00"
+}
