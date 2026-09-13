@@ -1,4 +1,15 @@
 {
+  "discarded_development_runs": [
+    {
+      "classification": "DISCARDED",
+      "cause": "An initial development version percent-encoded a leading endpoint slash as %2F.",
+      "excluded_from_measurement": true,
+      "fix": "Strip the discovered leading slash before joining URL path components.",
+      "note": "The output was not used for gate calculation and was superseded before final run1/run2.",
+      "stage": "pre-measurement",
+      "status": "NOT_A_G1_A_MEASURED_RUN"
+    }
+  ],
   "determinism": {
     "catalog_run1_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
     "catalog_run2_sha256": "7ce3a0a6c7901a02106a19ee7588c0aebb5cd40c989d4c851843ec533ff46862",
