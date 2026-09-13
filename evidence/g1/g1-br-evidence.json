@@ -1,0 +1,139 @@
+{
+  "checks": {
+    "code_reuse_event_count": 8,
+    "code_reuse_events": [
+      {
+        "first_period_successor": "202606",
+        "from_candidate_id": "registry:33119",
+        "from_official_name": "OPEN BANK, S.A. ",
+        "handoff_documented": true,
+        "last_period_predecessor": "202506",
+        "official_handoff_date": "2026-05-04",
+        "raw_sifdifu_key": "0073(0002)",
+        "to_candidate_id": "registry:33408",
+        "to_official_name": "OPEN BANK, S.A. "
+      },
+      {
+        "first_period_successor": "202012",
+        "from_candidate_id": "registry:34542",
+        "from_official_name": "BARCLAYS BANK PLC, SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201812",
+        "official_handoff_date": "2019-02-01",
+        "raw_sifdifu_key": "0152(0002)",
+        "to_candidate_id": "registry:37779",
+        "to_official_name": "BARCLAYS BANK IRELAND PLC, SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "201809",
+        "from_candidate_id": "registry:32850",
+        "from_official_name": "THE BANK OF TOKYO-MITSUBISHI UFJ, LTD., SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201803",
+        "official_handoff_date": "2018-04-01",
+        "raw_sifdifu_key": "0160(0002)",
+        "to_candidate_id": "registry:37755",
+        "to_official_name": "MUFG BANK (EUROPE) N.V., SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "202012",
+        "from_candidate_id": "registry:34543",
+        "from_official_name": "HSBC BANK PLC, SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201812",
+        "official_handoff_date": "2019-02-01",
+        "raw_sifdifu_key": "0162(0002)",
+        "to_candidate_id": "registry:37781",
+        "to_official_name": "HSBC CONTINENTAL EUROPE, SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "202212",
+        "from_candidate_id": "registry:32858",
+        "from_official_name": "BANCO FINANTIA SPAIN, S.A. ",
+        "handoff_documented": true,
+        "last_period_predecessor": "202109",
+        "official_handoff_date": "2021-11-25",
+        "raw_sifdifu_key": "0220(0002)",
+        "to_candidate_id": "registry:37877",
+        "to_official_name": "BANCO FINANTIA, S.A., SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "201812",
+        "from_candidate_id": "registry:37689",
+        "from_official_name": "BANK OF AMERICA MERRILL LYNCH INTERNATIONAL LIMITED, SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201809",
+        "official_handoff_date": "2018-12-01",
+        "raw_sifdifu_key": "1485(0002)",
+        "to_candidate_id": "registry:37769",
+        "to_official_name": "BANK OF AMERICA EUROPE  DAC, SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "202012",
+        "from_candidate_id": "registry:34306",
+        "from_official_name": "SUMITOMO MITSUI BANKING CORPORATION EUROPE LIMITED, SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201812",
+        "official_handoff_date": "2019-04-01",
+        "raw_sifdifu_key": "1551(0002)",
+        "to_candidate_id": "registry:37800",
+        "to_official_name": "SMBC BANK EU AG, SUCURSAL EN ESPAÑA "
+      },
+      {
+        "first_period_successor": "202012",
+        "from_candidate_id": "registry:33482",
+        "from_official_name": "OPEL BANK GMBH, SUCURSAL EN ESPAÑA ",
+        "handoff_documented": true,
+        "last_period_predecessor": "201812",
+        "official_handoff_date": "2019-11-04",
+        "raw_sifdifu_key": "1565(0002)",
+        "to_candidate_id": "registry:34311",
+        "to_official_name": "OPEL BANK, S.A., SUCURSAL EN ESPAÑA "
+      }
+    ],
+    "code_reuse_violations": [],
+    "elements_with_multiple_lei_documents": [],
+    "elements_with_unstable_name": {},
+    "fail_closed_violation_count": 0,
+    "fail_closed_violations": [],
+    "lei_mismatch_count": 0,
+    "mapping_basis_counts": {
+      "CODE_OWNERSHIP_HISTORY": 9253
+    },
+    "non_ownership_proven_count": 0,
+    "non_unique_mapping_count": 0,
+    "non_unique_mapping_examples": [],
+    "observation_count": 9253,
+    "observed_registry_elements": 240,
+    "raw_key_preserved": true,
+    "scope_semantics": [
+      "0000",
+      "0001",
+      "0002"
+    ],
+    "unresolved_component_not_normalized": true
+  },
+  "determinism": {
+    "classification": "IDENTICAL",
+    "note": "pure function of frozen entities.json; evaluated twice"
+  },
+  "experiment": "BANKCALL_ES_G1_BR_TEMPORAL_IDENTITY_MODEL",
+  "gates": {
+    "CODE_REUSE_DETECTED": "PASS",
+    "CODE_TRANSFER_FAIL_CLOSED": "PASS",
+    "ENTITY_MAPPING_UNIQUE_PER_PERIOD": "PASS",
+    "LEGAL_ENTITY_IDENTITY_STABLE": "PASS",
+    "REPORTING_SLOT_TEMPORAL_OWNERSHIP_PROVEN": "PASS",
+    "SCOPE_SEMANTICS_PROVEN": "PASS"
+  },
+  "input": {
+    "g1_b_freeze_tag": "g1-b-identity-lifecycle-v1.0",
+    "path": "F:\\_Proyectos\\BankCall España\\evidence\\g1\\entities.json",
+    "raw_sha256": "c6ca6ea35d8d99a91fe603773680dfbee65afb8cc6d99e999fdba1e53a9c17f4"
+  },
+  "model_decision": "methodology/ADR-001-temporal-reporting-slots.md",
+  "result": "PASS",
+  "schema": "bankcall.g1.temporal_identity_model.evidence.v1",
+  "scope": "offline validation of the corrected identity model over frozen G1-B v1.0 output",
+  "timestamp_utc": "2026-09-13T15:10:58.906577+00:00"
+}
