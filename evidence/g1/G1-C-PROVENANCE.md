@@ -76,3 +76,12 @@ demonstrated by `bd54457` plus this verification record.
   `evidence/g1/historical/g1-c-evidence-20260913T192433Z-prepatch.json`
   (also immutable in git at `bd54457`).
 - Run-A outputs (first determinism run): `%TEMP%\g1c_run2\` — local only.
+
+## Post-closure relocation
+
+The six Arelle versioning reports were moved `g0_acquisition/versioning/` →
+`evidence/g1/versioning/` (content unchanged; digests preserved). `report_path`
+values inside `g1-c-evidence.json` and the historical copy still record the
+pre-relocation location — they are run-generated output and were not edited.
+The bulk `dts_mirror/` stays under `g0_acquisition/` by design: it is frozen
+G0-acquired source data, and every resolver script derives `MIRROR` from it.

@@ -4,7 +4,7 @@ classification + evidence.
 Runs over the frozen official DTS mirror (offline).  Produces:
   evidence/g1/concept-mapping.json     - per-concept classification
   evidence/g1/g1-c-evidence.json       - gates, diagnostics, hashes
-  g0_acquisition/versioning/*.xml      - Arelle versioning reports (large; hashed)
+  evidence/g1/versioning/*.xml         - Arelle versioning reports (large; hashed)
 
 Canonical runs MUST set PYTHONHASHSEED=0: Arelle's versioning engine iterates
 hash sets whose order varies with per-process string-hash randomization,
@@ -42,7 +42,7 @@ REGISTRY = os.path.join(REPO, "evidence", "g1", "taxonomy-registry.json")
 OUT_MAP = os.path.join(REPO, "evidence", "g1", "concept-mapping.json")
 OUT_EVID = os.path.join(REPO, "evidence", "g1", "g1-c-evidence.json")
 OUT_FP = os.path.join(REPO, "evidence", "g1", "dts-fingerprints.json")
-VERS_DIR = os.path.join(REPO, "g0_acquisition", "versioning")
+VERS_DIR = os.path.join(REPO, "evidence", "g1", "versioning")
 
 GENERATION_ORDER = ["publicos_2018_01", "publicos_2018_12", "publicos_2023_03"]
 DIFF_PAIRS = [("publicos_2018_01", "publicos_2018_12"),
