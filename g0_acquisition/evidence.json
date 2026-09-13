@@ -1,0 +1,349 @@
+{
+  "experiment": "BANKCALL_ES_G0_ACQUISITION",
+  "timestamp_utc": "2026-09-13T11:36:59.561177+00:00",
+  "source_url": "https://app.bde.es/sifdifu/es/#/",
+  "navigation_trail": [
+    "https://app.bde.es/sifdifu/es/#/",
+    "https://www.bde.es/app/sif/documentosAsociaciones/select2-periodos-es.json",
+    "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/select2-estados-es.json",
+    "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/select2-entidades-es.json",
+    "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/config-es.json",
+    "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/entidades/0049(0002).json"
+  ],
+  "captured_request": {
+    "curl_sha256": "115e6239e7154cece1223a16bf5e541f3637cc60e45312e300e8953d51adb6d6",
+    "curl_sanitized_sha256": "8bbe9280ae1a4035bed929738ec9f7b0d86ca8cd50a8910517b4ff67a4926f4c",
+    "method": "GET",
+    "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+    "query_params": {},
+    "body": null,
+    "header_names": [
+      "Accept",
+      "Accept-Language",
+      "User-Agent"
+    ],
+    "cookie_names_captured": [],
+    "tokens_captured": []
+  },
+  "crosscheck": {
+    "source": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/entidades/0049(0002).json",
+    "concept": "epi1",
+    "value": "52116097292"
+  },
+  "environment": {
+    "python": "3.11.15",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "requests": "2.33.0",
+    "lxml": "6.1.1",
+    "urllib3": "2.7.0",
+    "certifi": "2026.05.20",
+    "probe_sha256": "e541b6407cd428e9a3e74f27e38e1e00c76f265b903c7898270164a824913a18",
+    "tls_verification": true
+  },
+  "runs": {
+    "run1": {
+      "session_cookie_names": [],
+      "sent_header_names": [
+        "Accept",
+        "Accept-Language",
+        "User-Agent"
+      ],
+      "status": 200,
+      "final_url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+      "redirects": [],
+      "content_type": "application/octet-stream",
+      "content_length_header": "6152037",
+      "content_disposition": null,
+      "set_cookie_names": [],
+      "elapsed_s": 0.356,
+      "tls_verified": true,
+      "sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+      "bytes": 6152037,
+      "artifact_file": "run1.bin",
+      "expected_payload_valid": true,
+      "validation_checks": {
+        "http_body_nonempty": true,
+        "not_html": true,
+        "not_json_error": true,
+        "xml_declaration": true,
+        "xml_parseable": true,
+        "root_is_xbrli_xbrl": true,
+        "schema_ref_present": true,
+        "schema_ref_taxonomy": "http://www.bde.es/es/fr/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1.xsd",
+        "schema_ref_is_bde": true,
+        "instants": [
+          "2026-06-30"
+        ],
+        "expected_period_present": true,
+        "num_entities": 107,
+        "min_entities_ok": true,
+        "expected_entity_present": true,
+        "num_facts": 2936,
+        "min_facts_ok": true,
+        "crosscheck_value_present": true,
+        "ok": true
+      }
+    },
+    "run2": {
+      "session_cookie_names": [],
+      "sent_header_names": [
+        "Accept",
+        "Accept-Language",
+        "User-Agent"
+      ],
+      "status": 200,
+      "final_url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+      "redirects": [],
+      "content_type": "application/octet-stream",
+      "content_length_header": "6152037",
+      "content_disposition": null,
+      "set_cookie_names": [],
+      "elapsed_s": 0.364,
+      "tls_verified": true,
+      "sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+      "bytes": 6152037,
+      "artifact_file": "run2.bin",
+      "expected_payload_valid": true,
+      "validation_checks": {
+        "http_body_nonempty": true,
+        "not_html": true,
+        "not_json_error": true,
+        "xml_declaration": true,
+        "xml_parseable": true,
+        "root_is_xbrli_xbrl": true,
+        "schema_ref_present": true,
+        "schema_ref_taxonomy": "http://www.bde.es/es/fr/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1.xsd",
+        "schema_ref_is_bde": true,
+        "instants": [
+          "2026-06-30"
+        ],
+        "expected_period_present": true,
+        "num_entities": 107,
+        "min_entities_ok": true,
+        "expected_entity_present": true,
+        "num_facts": 2936,
+        "min_facts_ok": true,
+        "crosscheck_value_present": true,
+        "ok": true
+      }
+    }
+  },
+  "replays": {
+    "lean1": {
+      "session_cookie_names": [],
+      "sent_header_names": [
+        "Accept",
+        "Accept-Encoding",
+        "Connection",
+        "User-Agent"
+      ],
+      "status": 200,
+      "final_url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+      "redirects": [],
+      "content_type": "application/octet-stream",
+      "content_length_header": "6152037",
+      "content_disposition": null,
+      "set_cookie_names": [],
+      "elapsed_s": 0.342,
+      "tls_verified": true,
+      "sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+      "bytes": 6152037,
+      "artifact_file": "run_lean1.bin",
+      "expected_payload_valid": true,
+      "validation_checks": {
+        "http_body_nonempty": true,
+        "not_html": true,
+        "not_json_error": true,
+        "xml_declaration": true,
+        "xml_parseable": true,
+        "root_is_xbrli_xbrl": true,
+        "schema_ref_present": true,
+        "schema_ref_taxonomy": "http://www.bde.es/es/fr/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1.xsd",
+        "schema_ref_is_bde": true,
+        "instants": [
+          "2026-06-30"
+        ],
+        "expected_period_present": true,
+        "num_entities": 107,
+        "min_entities_ok": true,
+        "expected_entity_present": true,
+        "num_facts": 2936,
+        "min_facts_ok": true,
+        "crosscheck_value_present": true,
+        "ok": true
+      }
+    },
+    "lean2": {
+      "session_cookie_names": [],
+      "sent_header_names": [
+        "Accept",
+        "Accept-Encoding",
+        "Connection",
+        "User-Agent"
+      ],
+      "status": 200,
+      "final_url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+      "redirects": [],
+      "content_type": "application/octet-stream",
+      "content_length_header": "6152037",
+      "content_disposition": null,
+      "set_cookie_names": [],
+      "elapsed_s": 0.441,
+      "tls_verified": true,
+      "sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+      "bytes": 6152037,
+      "artifact_file": "run_lean2.bin",
+      "expected_payload_valid": true,
+      "validation_checks": {
+        "http_body_nonempty": true,
+        "not_html": true,
+        "not_json_error": true,
+        "xml_declaration": true,
+        "xml_parseable": true,
+        "root_is_xbrli_xbrl": true,
+        "schema_ref_present": true,
+        "schema_ref_taxonomy": "http://www.bde.es/es/fr/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1.xsd",
+        "schema_ref_is_bde": true,
+        "instants": [
+          "2026-06-30"
+        ],
+        "expected_period_present": true,
+        "num_entities": 107,
+        "min_entities_ok": true,
+        "expected_entity_present": true,
+        "num_facts": 2936,
+        "min_facts_ok": true,
+        "crosscheck_value_present": true,
+        "ok": true
+      }
+    },
+    "bootstrap": {
+      "steps": [
+        {
+          "url": "https://app.bde.es/sifdifu/es/#/",
+          "status": 200,
+          "bytes": 1466,
+          "set_cookie_names": [
+            " TS017d8e2f",
+            "PD_STATEFUL_081d99ec-53d3-11ea-b5d2-0050569100aa"
+          ]
+        },
+        {
+          "url": "https://www.bde.es/app/sif/documentosAsociaciones/select2-periodos-es.json",
+          "status": 200,
+          "bytes": 1237,
+          "set_cookie_names": []
+        },
+        {
+          "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/select2-estados-es.json",
+          "status": 200,
+          "bytes": 638,
+          "set_cookie_names": []
+        },
+        {
+          "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/select2-entidades-es.json",
+          "status": 200,
+          "bytes": 9613,
+          "set_cookie_names": []
+        },
+        {
+          "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/config-es.json",
+          "status": 200,
+          "bytes": 4621,
+          "set_cookie_names": []
+        },
+        {
+          "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/entidades/0049(0002).json",
+          "status": 200,
+          "bytes": 3313,
+          "set_cookie_names": []
+        }
+      ],
+      "session_cookie_names": [
+        "PD_STATEFUL_081d99ec-53d3-11ea-b5d2-0050569100aa",
+        "TS017d8e2f"
+      ],
+      "status": 200,
+      "final_url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/2701/2701_202606.xbrl",
+      "content_type": "application/octet-stream",
+      "content_length_header": "6152037",
+      "redirects": [],
+      "sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+      "bytes": 6152037,
+      "artifact_file": "run_bootstrap.bin",
+      "expected_payload_valid": true,
+      "validation_checks": {
+        "http_body_nonempty": true,
+        "not_html": true,
+        "not_json_error": true,
+        "xml_declaration": true,
+        "xml_parseable": true,
+        "root_is_xbrli_xbrl": true,
+        "schema_ref_present": true,
+        "schema_ref_taxonomy": "http://www.bde.es/es/fr/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1.xsd",
+        "schema_ref_is_bde": true,
+        "instants": [
+          "2026-06-30"
+        ],
+        "expected_period_present": true,
+        "num_entities": 107,
+        "min_entities_ok": true,
+        "expected_entity_present": true,
+        "num_facts": 2936,
+        "min_facts_ok": true,
+        "crosscheck_value_present": true,
+        "ok": true
+      }
+    }
+  },
+  "diff": {
+    "classification": "IDENTICAL",
+    "detail": {
+      "reason": "sha256 equal"
+    },
+    "run1_sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae",
+    "run2_sha256": "5fe4a466fa6d3907100d687c09eda9108a2aabf1fd9bfd233c5b257d1e731dae"
+  },
+  "classification": {
+    "captured_replay": "PASS",
+    "tokenless_replay": "PASS",
+    "http_bootstrap": "PASS",
+    "http_bootstrap_required": false,
+    "http_bootstrap_note": "NOT_REQUIRED_FOR_DIRECT_DOWNLOAD",
+    "browser_required": "NO"
+  },
+  "gates": {
+    "SOURCE_REDISCOVERABLE": "PASS",
+    "DOWNLOAD_REPRODUCIBLE": "PASS",
+    "FRESH_SESSION_REPRODUCIBLE": "PASS",
+    "EXPECTED_PAYLOAD_VALID": "PASS",
+    "SECOND_RUN_IDENTICAL": "IDENTICAL",
+    "FAIL_CLOSED_ON_SOURCE_CHANGE": "PASS",
+    "captured_replay": "PASS",
+    "tokenless_replay": "PASS",
+    "http_bootstrap": "PASS (NOT_REQUIRED_FOR_DIRECT_DOWNLOAD)",
+    "browser_required": "NO"
+  },
+  "fail_closed": {
+    "detected": true,
+    "tests": [
+      {
+        "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/209901/select2-estados-es.json",
+        "status": 404,
+        "final_url": "https://app.bde.es/pmk/id?a=/app/sif/documentosAsociaciones/periodos/209901/select2-estados-es.json",
+        "bytes": 10389,
+        "content_type": "text/html;charset=ISO-8859-1",
+        "validated_as_expected_artifact": false
+      },
+      {
+        "url": "https://www.bde.es/app/sif/documentosAsociaciones/periodos/202606/9999/9999_202606.xbrl",
+        "status": 404,
+        "final_url": "https://app.bde.es/pmk/id?a=/app/sif/documentosAsociaciones/periodos/202606/9999/9999_202606.xbrl",
+        "bytes": 10389,
+        "content_type": "text/html;charset=ISO-8859-1",
+        "validated_as_expected_artifact": false
+      }
+    ]
+  },
+  "lean_merged_with_prior_run": true
+}

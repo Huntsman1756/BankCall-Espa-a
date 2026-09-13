@@ -1,0 +1,22 @@
+# BankCall Espana - repository root
+
+# --- Sensitive capture material: never commit ---
+g0_acquisition/curl.txt
+
+# --- Large / reproducible-by-probe binary artifacts ---
+g0_acquisition/*.bin
+g0_acquisition/sample_*.xbrl
+g0_acquisition/*.xls*
+
+# --- Exploration scratch (Angular bundles + throwaway HTTP discovery scripts) ---
+g0_acquisition/*.js
+g0_acquisition/scan*.py
+g0_acquisition/fetch*.py
+g0_acquisition/cookies_test.py
+g0_acquisition/crosscheck.py
+g0_acquisition/validate_xbrl.py
+g0_acquisition/*_out*.txt
+
+# --- Python ---
+__pycache__/
+*.pyc

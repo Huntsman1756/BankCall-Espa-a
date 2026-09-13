@@ -1,0 +1,18 @@
+# BankCall Espana - G0 acquisition experiment
+# Sensitive capture material must never be committed.
+curl.txt
+
+# Large binary artifacts
+*.bin
+
+# Exploration scratch (Angular bundles, scratch scripts)
+main.*.js
+runtime.*.js
+scripts.*.js
+chunk4.js
+*.xbrl
+*.xls*
+
+# Python
+__pycache__/
+*.pyc
