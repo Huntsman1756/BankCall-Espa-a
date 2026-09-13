@@ -10,7 +10,7 @@
     "NO_SILENT_SEMANTIC_DRIFT": "PASS",
     "TAXONOMY_AUTO_RESOLVABLE": "PASS"
   },
-  "generated_at": "2026-09-13T19:58:05+00:00",
+  "generated_at": "2026-09-13T19:24:33+00:00",
   "generation_diagnostics": {
     "publicos_2018_01": {
       "entry_points": {
@@ -146,7 +146,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-01-01/tab/PC_2.b": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/tab/PC_2.b"
         },
         "report_path": "g0_acquisition/versioning/pc_con1_publicos_2018_01_publicos_2018_12.xml",
-        "report_sha256": "4cd42c5e0b587d3972146d68d1b848739255dcb8c20c1e5137ddc4f7ba79c4f9",
+        "report_sha256": "f7caa5895b4a71f679cc8a928358686dc57c1445d0dd03ffeef8e1b181f83e7c",
         "role_changes": {
           "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-01-01/tab/PC_1-1": "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-12-01/tab/PC_1-1",
           "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-01-01/tab/PC_1-1/1": "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-12-01/tab/PC_2.b/1",
@@ -419,7 +419,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-01-01/tab/PI_2": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/tab/PI_2"
         },
         "report_path": "g0_acquisition/versioning/pi_in1_publicos_2018_01_publicos_2018_12.xml",
-        "report_sha256": "eb14fff78cdbd12a9b881d6c161c1bfa7efea4f9e461e62948485e049cddbc27",
+        "report_sha256": "37a5ca9fed5c61b4e5bab4add249f755b834b1a1e66e5b276065d60935aa91b7",
         "role_changes": {
           "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-01-01/tab/PI_1-1": "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-12-01/tab/PI_1-1",
           "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-01-01/tab/PI_1-1/1": "http://www.bde.es/xbrl/role/fws/publicos/circ-4-2017/2018-12-01/tab/PI_2/1",
@@ -672,7 +672,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-01-01/mod/ps_in1": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/mod/ps_in1"
         },
         "report_path": "g0_acquisition/versioning/ps_in1_publicos_2018_01_publicos_2018_12.xml",
-        "report_sha256": "150284e2925fdcd002f1b2a2c8cfa37189c0dcdad7df1ef697b68d36b1935fa1",
+        "report_sha256": "1d3bc8ac5577662d67e3d74ec8177b145747bb4ec3e4271173660012b28b6f45",
         "role_changes": {},
         "status": "OK"
       }
@@ -684,7 +684,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/mod/pc_con1": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pc_con1"
         },
         "report_path": "g0_acquisition/versioning/pc_con1_publicos_2018_12_publicos_2023_03.xml",
-        "report_sha256": "25d2e3639ba1880b788b38c0ef9cedfc26f26caf6e2c23df4d6dbbf29424fb5a",
+        "report_sha256": "8dd45ea52b44ac330a6520040e700ad9627b7a7a1b874887d32fd0c555186492",
         "role_changes": {},
         "status": "OK"
       },
@@ -695,7 +695,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/mod/pi_in1": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/pi_in1"
         },
         "report_path": "g0_acquisition/versioning/pi_in1_publicos_2018_12_publicos_2023_03.xml",
-        "report_sha256": "ba5ed3f4b1a03b7d8a9938961bbf7da893abbf77038a3c095c28595dca1e5a64",
+        "report_sha256": "f898597870792d7c92ad558b6e248e45a249960307a236dd0ed1d701b4ff2b59",
         "role_changes": {},
         "status": "OK"
       },
@@ -705,7 +705,7 @@
           "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2018-12-01/mod/ps_in1": "http://www.bde.es/xbrl/fws/publicos/circ-4-2017/2023-03-01/mod/ps_in1"
         },
         "report_path": "g0_acquisition/versioning/ps_in1_publicos_2018_12_publicos_2023_03.xml",
-        "report_sha256": "c35223db506223ac017d697dbecdc5c8f31e48ee8f91ad62f3f7da8ba56898af",
+        "report_sha256": "378a1283cab53a635ae9afed909b2222b2f372c4c5203326ad97ab249b7121a6",
         "role_changes": {},
         "status": "OK"
       }
