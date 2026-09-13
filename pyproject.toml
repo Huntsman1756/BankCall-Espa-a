@@ -17,6 +17,9 @@ dependencies = [
     "rich>=13",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
 [project.scripts]
 bankcall = "bankcall.cli:app"
 

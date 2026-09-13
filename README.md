@@ -7,14 +7,12 @@ provenance.
 
 ```console
 $ bankcall compare 0049 0081 0128 --period 2026Q2 --concept "patrimonio neto"
-                     Compare — 2026Q2
-  Metric          Dims                 0049        0081        0128
-  Importe en      BAS=Patrimonio    85,083,626  10,155,716   6,056,638
-  libros          neto; MCY=Todo         EUR         EUR         EUR
-                  el patrimonio
-                  neto
-  0049: BANCO SANTANDER, S.A. | 0081: BANCO DE SABADELL, S.A.
-    | 0128: BANKINTER, S.A.
+                                    Compare — 2026Q2
+  Metric         Dims                           0049            0081            0128
+  Importe en     BAS=Patrimonio neto;  85,083,626,557   10,155,716,000    6,056,638,923
+  libros         MCY=Todo el                     EUR             EUR             EUR
+                 patrimonio neto
+  0049: BANCO SANTANDER, S.A. | 0081: BANCO DE SABADELL, S.A. | 0128: BANKINTER, S.A.
 ```
 
 ## Commands
