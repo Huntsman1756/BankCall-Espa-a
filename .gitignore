@@ -20,6 +20,7 @@ g0_acquisition/*_out*.txt
 # --- Python ---
 __pycache__/
 *.pyc
+*.egg-info/
 
 # --- G1-C frozen DTS resources (large, hash-pinned in evidence/g1/dts-freeze-manifest.json) ---
 g0_acquisition/es-bde.zip
