@@ -24,7 +24,7 @@ import platform
 import re
 import sys
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Iterable
 from urllib.parse import urljoin, urlparse
@@ -343,6 +343,27 @@ def registry_code_history(
     return cache[element_id]
 
 
+def registry_code_history_or_none(
+    session: requests.Session,
+    base_url: str,
+    element_id: int,
+    sources: list[dict[str, Any]],
+    cache: dict[int, list[dict[str, Any]] | None],
+) -> list[dict[str, Any]] | None:
+    """Fetch the official code-assignment history for an element.
+
+    A failed or non-list response is recorded in sources and returned as
+    None (history unavailable); ownership then falls back to role activity.
+    """
+    if element_id in cache:
+        return cache[element_id]
+    try:
+        cache[element_id] = registry_code_history(session, base_url, element_id, sources, cache)  # type: ignore[arg-type]
+    except IdentityLifecycleError:
+        cache[element_id] = None
+    return cache[element_id]
+
+
 def clean_role(role: dict[str, Any]) -> dict[str, Any]:
     result: dict[str, Any] = {}
     for key in ("nombreRol", "fechaAltaRol", "fechaBajaRol", "motivoBaja", "deEntidadIDElemento"):
@@ -409,7 +430,7 @@ def load_registry_candidates(
     sources: list[dict[str, Any]],
 ) -> dict[str, list[dict[str, Any]]]:
     detail_cache: dict[int, dict[str, Any]] = {}
-    history_cache: dict[int, list[dict[str, Any]]] = {}
+    history_cache: dict[int, list[dict[str, Any]] | None] = {}
     output: dict[str, list[dict[str, Any]]] = {}
     for bank_code in sorted(set(bank_codes)):
         search_items = registry_search(session, base_url, bank_code, sources)
@@ -457,7 +478,17 @@ def load_registry_candidates(
                         )
                     )
         unique: dict[int, dict[str, Any]] = {int(item["idelemento"]): item for item in candidates}
-        output[bank_code] = [unique[element_id] for element_id in sorted(unique)]
+        resolved = [unique[element_id] for element_id in sorted(unique)]
+        for candidate in resolved:
+            if candidate.get("code_history") is None:
+                candidate["code_history"] = registry_code_history_or_none(
+                    session,
+                    base_url,
+                    candidate["idelemento"],
+                    sources,
+                    history_cache,
+                )
+        output[bank_code] = resolved
     return output
 
 
@@ -516,13 +547,88 @@ def registry_status_for_period(
     return "unknown", None, classified
 
 
+def candidate_leis(candidate: dict[str, Any]) -> set[str]:
+    return {
+        str(document["numeroDocumento"])
+        for document in candidate.get("documents", [])
+        if isinstance(document, dict)
+        and document.get("tipoDocumento") == "LEI"
+        and document.get("numeroDocumento")
+    }
+
+
+def code_ownership_at(
+    candidate: dict[str, Any], bank_code: str, period_end: dt.date
+) -> bool | None:
+    """Whether the element's official code history claims bank_code at
+    period_end. Interval ends are inclusive: a transfer day belongs to both
+    the ending and the starting assignment. Returns None when the registry
+    history is unavailable."""
+    history = candidate.get("code_history")
+    if history is None:
+        return None
+    for entry in history:
+        if str(entry.get("codigoBE") or "") != bank_code:
+            continue
+        start = parse_date(entry.get("fechaInicio"))
+        end = parse_date(entry.get("fechaFin"))
+        if (start is None or start <= period_end) and (end is None or period_end <= end):
+            return True
+    return False
+
+
 def registry_observation_mapping(
-    candidates: list[dict[str, Any]], period_end: dt.date
-) -> tuple[str, dict[str, Any] | None, str, list[dict[str, Any]]]:
-    status, candidate, classified = registry_status_for_period(candidates, period_end)
-    if candidate is not None and status in {"active", "inactive"}:
-        return "PROVEN", candidate, status, classified
-    return "UNKNOWN", None, status, classified
+    candidates: list[dict[str, Any]],
+    bank_code: str,
+    period_end: dt.date,
+    catalog_lei: str | None = None,
+) -> tuple[str, dict[str, Any] | None, str, list[dict[str, Any]], str | None, str]:
+    """Map a catalog observation to one registry element.
+
+    Primary evidence is the official code-assignment history: exactly one
+    element must hold bank_code at period_end. When several elements hold
+    the code (a transfer boundary day) the catalog-label LEI may
+    disambiguate. Role activity is used only when no history is available.
+    A catalog LEI that contradicts the resolved element's LEI document is a
+    source conflict and stays UNKNOWN.
+    """
+    status, role_candidate, classified = registry_status_for_period(candidates, period_end)
+    ownership = [
+        (candidate, code_ownership_at(candidate, bank_code, period_end))
+        for candidate in candidates
+    ]
+    holders = [candidate for candidate, owns in ownership if owns is True]
+    basis: str | None = None
+    candidate: dict[str, Any] | None = None
+    if len(holders) == 1:
+        candidate = holders[0]
+        basis = "CODE_OWNERSHIP_HISTORY"
+    elif len(holders) > 1 and catalog_lei:
+        lei_matches = [holder for holder in holders if catalog_lei in candidate_leis(holder)]
+        if len(lei_matches) == 1:
+            candidate = lei_matches[0]
+            basis = "CODE_OWNERSHIP_HISTORY_LEI_DISAMBIGUATED"
+    elif not holders and ownership and all(owns is None for _, owns in ownership):
+        if role_candidate is not None and status in {"active", "inactive"}:
+            candidate = role_candidate
+            basis = "ROLE_ACTIVITY_SINGLE_ACTIVE_FALLBACK"
+
+    lei_crosscheck = "NOT_APPLICABLE_NO_LABEL_LEI"
+    if candidate is not None and catalog_lei:
+        leis = candidate_leis(candidate)
+        if not leis:
+            lei_crosscheck = "NO_CANDIDATE_LEI_DOCUMENT"
+        elif catalog_lei in leis:
+            lei_crosscheck = "MATCH"
+        else:
+            candidate = None
+            basis = None
+            lei_crosscheck = "MISMATCH"
+
+    if candidate is None:
+        return "UNKNOWN", None, status, classified, basis, lei_crosscheck, ownership
+    lifecycle_status = candidate_lifecycle_status(candidate, period_end)
+    return "PROVEN", candidate, lifecycle_status, classified, basis, lei_crosscheck, ownership
 
 
 def source_catalog_table(periods: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -733,8 +839,19 @@ def build_observations(
             for entity in sorted(state.get("entities", []), key=lambda item: str(item.get("id"))):
                 parsed = parse_catalog_label(str(entity["id"]), str(entity.get("text", "")))
                 all_codes.add(parsed["bank_code"])
-                mapping_status, candidate, lifecycle_status, classified = registry_observation_mapping(
-                    candidates.get(parsed["bank_code"], []), period_end
+                (
+                    mapping_status,
+                    candidate,
+                    lifecycle_status,
+                    classified,
+                    mapping_basis,
+                    lei_crosscheck,
+                    ownership,
+                ) = registry_observation_mapping(
+                    candidates.get(parsed["bank_code"], []),
+                    parsed["bank_code"],
+                    period_end,
+                    parsed.get("catalog_lei"),
                 )
                 record: dict[str, Any] = {
                     **parsed,
@@ -745,6 +862,15 @@ def build_observations(
                     "catalog_presence_status": "present-in-period-statement",
                     "catalog_entities_source_id": source_id,
                     "registry_mapping_status": mapping_status,
+                    "mapping_basis": mapping_basis,
+                    "lei_crosscheck": lei_crosscheck,
+                    "ownership_classification": [
+                        {
+                            "candidate_id": item[0]["candidate_id"],
+                            "holds_code_at_period_end": item[1],
+                        }
+                        for item in ownership
+                    ],
                     "registry_lifecycle_status": lifecycle_status,
                     "registry_candidate_id": candidate.get("candidate_id") if candidate else None,
                     "registry_code": candidate.get("codigoBE") if candidate else None,
@@ -1046,6 +1172,19 @@ def gate_results(
         "mapping_unknown_key_count": len(mapping_unknown_keys),
         "mapping_unknown_by_key": mapping_unknown_by_key,
         "mapping_unknown_examples": mapping_unknown_keys[:20],
+        "mapping_basis_counts": dict(
+            sorted(
+                Counter(
+                    observation["mapping_basis"] or "UNRESOLVED"
+                    for observation in observations
+                ).items()
+            )
+        ),
+        "lei_crosscheck_counts": dict(
+            sorted(
+                Counter(observation["lei_crosscheck"] for observation in observations).items()
+            )
+        ),
         "xbrl_proof_count": len(xbrl_proofs),
         "xbrl_proofs_valid": xbrl_ok,
         "temporal_change_count": len(temporal_changes),
@@ -1288,6 +1427,17 @@ def render_report(evidence: dict[str, Any], output: dict[str, Any]) -> str:
             "## Identity findings",
             "",
             "- Registry mapping remains unresolved for **%s observations** across **%s raw keys**; these records remain `UNKNOWN` and are not normalized." % (checks["mapping_unknown_count"], checks["mapping_unknown_key_count"]),
+            "- Registry mapping basis: %s. Catalog-label LEI cross-checks: %s."
+            % (
+                ", ".join(
+                    "`%s`=%s" % (name, count)
+                    for name, count in checks["mapping_basis_counts"].items()
+                ),
+                ", ".join(
+                    "`%s`=%s" % (name, count)
+                    for name, count in checks["lei_crosscheck_counts"].items()
+                ),
+            ),
             "- **%s raw keys** are changed or ambiguous across the evaluation periods. The period-level mapping evidence is retained below; predecessor/successor edges are not used as aliases." % checks["temporal_change_count"],
             "",
             "| Raw SIFDIFU key | Registry IDs observed | Unresolved observations | Period mapping |",
