@@ -29,6 +29,20 @@ bankcall changes 0049 --from 2025Q2 --to 2026Q2   # diff with taxonomy-drift fla
 Statement groups: `balance` (2701–2703), `pl` (4701, 4702), or raw statement
 ids. Periods: `2018Q1`, `2026Q2`, or raw `YYYYMM`.
 
+## Sample output
+
+**`bankcall compare`** — same facts, three reporting slots, one period:
+
+![bankcall compare](docs/assets/compare.svg)
+
+**`bankcall entity 0073`** — a reporting slot is not a legal entity:
+
+![bankcall entity](docs/assets/entity.svg)
+
+**`bankcall changes`** — fact-level diff with taxonomy-drift flags:
+
+![bankcall changes](docs/assets/changes.svg)
+
 ## A bank code is not a legal entity
 
 `0049` is a **reporting slot**, not a company. When the slot changes legal
