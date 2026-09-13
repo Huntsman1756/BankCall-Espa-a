@@ -22,6 +22,30 @@ __pycache__/
 *.pyc
 *.egg-info/
 
+# --- Secrets / local config ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --- Local Python / tooling ---
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
 # --- G1-C frozen DTS resources (large, hash-pinned in evidence/g1/dts-freeze-manifest.json) ---
 g0_acquisition/es-bde.zip
 g0_acquisition/es-bde-aux.zip
