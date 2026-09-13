@@ -1,4 +1,12 @@
 {
+  "contract_discrepancies": [
+    {
+      "classification": "SOURCE_VS_PREREGISTER_DISCREPANCY",
+      "contract_text": "G1-CONTRACT.md section 2 advertises XBRL/XLSX/PDF artifacts.",
+      "observed": "The official catalog advertises .xls (401), .xbrl (401) and .pdf (401); no .xlsx artifacts exist in the frozen corpus.",
+      "resolution": "Recorded as a factual discrepancy; the frozen contract text is not retroactively modified."
+    }
+  ],
   "discarded_development_runs": [
     {
       "classification": "DISCARDED",
